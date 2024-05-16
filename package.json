@@ -6,8 +6,27 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^14.1.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@babel/plugin-transform-async-generator-functions": "^7.24.3",
+    "@babel/plugin-transform-class-properties": "^7.24.1",
+    "@babel/plugin-transform-logical-assignment-operators": "^7.24.1",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.1",
+    "@babel/plugin-transform-numeric-separator": "^7.24.1",
+    "@babel/plugin-transform-object-rest-spread": "^7.24.5",
+    "@babel/plugin-transform-optional-catch-binding": "^7.24.1",
+    "@babel/plugin-transform-optional-chaining": "^7.24.5",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.91.8",
+    "@toruslabs/openlogin": "^8.1.2",
+    "@walletconnect/client": "^1.8.0",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "autoprefixer": "^10.4.19",
+    "next": "^14.2.3",
+    "postcss": "^8.4.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.3",
+    "xrpl": "^3.0.0"
   }
 }
